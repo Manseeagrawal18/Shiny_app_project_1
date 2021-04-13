@@ -29,7 +29,7 @@ library(reshape2)
 # If not all plots shown, open the application in browser
 
 # Load data ----
-data <- read.table("/Users/abpandey/Downloads/certified_AI_Nielt/Interactive-Data-Visualization-R-Shiny-master/europe.csv", sep=",", header=TRUE)
+data <- read.table("europe.csv", sep=",", header=TRUE)
 colnames(data)[5] <- "Life expectancy"
 colnames(data)[7] <- "Population growth"
 defaultColors <- c( "red", "blue", "orange", "magenta", "cyan", "gold", "black", "darkgreen")
